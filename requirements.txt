@@ -1,0 +1,7 @@
+gtts
+openai
+langchain
+streamlit
+metaphor-python
+duckduckgo-search
+SpeechRecognition
