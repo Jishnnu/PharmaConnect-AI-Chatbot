@@ -1,6 +1,5 @@
 # Import necessary libraries
 import streamlit as st
-import speech_recognition as sr
 from gtts import gTTS
 from typing import List
 from langchain.llms import OpenAI
@@ -23,7 +22,6 @@ st.header("🤖 PhramaConnect : Medicines made simple!", divider="rainbow")
 OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"
 metaphor = Metaphor("YOUR_METAPHOR_API_KEY")
 resultant_response = ""
-recognizer = sr.Recognizer()
 
 
 # Define a function to call search engines with a query

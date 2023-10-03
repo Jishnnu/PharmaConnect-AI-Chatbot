@@ -4,4 +4,3 @@ langchain
 streamlit
 metaphor-python
 duckduckgo-search
-SpeechRecognition
